@@ -49,12 +49,12 @@ ___
 > + Compress images in png, jpg, svg and etc formats
 > + Minify HTML CSS and JS files
 > + **[`npm run validate`](#commands)** for inspect your main HTML file 
-> + Use the HTML-templates in your project **`@@include("pathToFile")`**
+> + Use the HTML-templates in your project `@@include("pathToFile")`
 ___
 
 ### Plugins list
 
-!!! notice This list may will be changed with time
+__This list may will be changed with time__
 
 | Plugin | What's doing (briefly) |
 | ------ | ------------ |
