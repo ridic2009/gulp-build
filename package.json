@@ -17,8 +17,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "lastest",
-    "del": "lastest",
+    "browser-sync": "^2.27.10",
+    "del": "^7.0.0",
     "gulp": "lastest",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.1",
