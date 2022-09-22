@@ -41,6 +41,7 @@
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2",
     "gulp-zip": "^5.1.0",
+    "html-validate": "^7.5.0",
     "sass": "^1.54.5"
   }
 }
