@@ -1,7 +1,7 @@
 {
   "name": "gulp-build",
   "version": "1.0.0",
-  "description": "This build include compile scss, pug code, and archive compression. As well you can compress images, and convert fonts from ttf, and etc to woff2",
+  "description": "This build include compile scss, pug code, and compression in archive. As well you can compress images, and convert fonts from ttf, and etc to woff2",
   "main": "index.js",
   "type": "module",
   "scripts": {
