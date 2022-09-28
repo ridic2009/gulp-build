@@ -1,31 +1,15 @@
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-    object-fit: cover;
-}
-
-a {
-    text-decoration: none;
-}
-
-button {
-    border: none;
-    padding: 0;
-    background: transparent;
-    cursor: pointer;
-}
+.container {
+    max-width: ($containerWidth + $containerPadding) + px;
+    margin: 0 auto;
+    padding: 0 $containerSidePadding + px;
+  }
+  
+  body {
+  
+    font-family: $fontMain;
+    font-size: $fontSize + px;
+  
+    &.locked {
+      overflow: hidden;
+    }
+  }

@@ -15,5 +15,5 @@ export const scss = () => {
         .pipe($.plugin.if($.isProd, $.plugin.rename({ suffix: ".min" })))
         .pipe($.plugin.if($.isProd, $.plugin.csso()))
         .pipe($.plugin.if($.isProd, $.plugin.size({ title: "main.min.css" })))
-        .pipe($.gulp.dest($.path.css.dest, { sourcemaps: $.options.isDev }))
+        .pipe($.gulp.dest($.path.css.dest, { sourcemaps: $.isDev }))
 };

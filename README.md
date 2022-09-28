@@ -84,7 +84,6 @@ ___
 
 ```
 📦 gulp-build
- ┣ 📂 .vscode                 ~ Visual Studio Code options
  ┣ 📂 gulp                    ~ Config and tasks for gulpfile.js
  ┣ 📂 src                     ~ Source folder
  ┃ ┣ 📂 fonts                 ~ Folder for fonts storage
@@ -93,9 +92,10 @@ ___
  ┃ ┣ 📂 js                    ~ Folder for Javascript files storage
  ┃ ┃ ┗ 📜 main.js             ~ Main file for scripts
  ┃ ┣ 📂 scss                  ~ Folder for SCSS files storage
- ┃ ┃ ┣ 📂 components          ~ Folder for SCSS-components storage 
- ┃ ┃ ┣ 📜 main.scss           ~ Main SCSS file
- ┃ ┃ ┗ 📜 _global.scss        ~ This file stores the global styles
+ ┃ ┃ ┣ 📜 _global.scss        ~ This file stores the global styles
+ ┃ ┃ ┣ 📜 _reset.scss         ~ Reset browser's standart styles
+ ┃ ┃ ┣ 📜 _vars.scss          ~ Variables for SCSS
+ ┃ ┃ ┗ 📜 main.scss           ~ Main SCSS file
  ┃ ┗ 📜 index.html            ~ No comments
  ┣ 📜 gulpfile.js             ~ The main file for working Gulp
  ┣ 📜 package.json            ~ Assembly options and downloaded packets

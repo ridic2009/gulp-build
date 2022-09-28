@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+ol,
+figure,
+figcaption {
+    margin: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a,
+a:visited,
+a:link {
+    text-decoration: none;
+}
+
+ul,
+ul li,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}

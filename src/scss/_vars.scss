@@ -1,0 +1,24 @@
+// Container
+@use "sass:math";
+$containerWidth: 1200;
+$containerPadding: 30;
+$containerSidePadding: math.div($containerPadding, 2);
+
+// Breakpoints
+
+$bp1400: 1399.98 + px;
+$bp992: 991.98 + px;
+$bp768: 767.98 + px;
+$bp480: 479.98 + px;
+
+// Colors
+
+$primaryColor: #ffffff;
+$secondaryColor: #000000;
+$ternaryColor: #333333;
+
+// Fonts
+
+$fontMain: 'Roboto', sans-serif;
+$fontSize: 16;
+
