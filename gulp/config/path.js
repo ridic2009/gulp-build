@@ -10,14 +10,8 @@ export const path = {
         dest: pathDest
     },
 
-    css: {
-        src: pathSrc + '/css/*.css',
-        watch: pathSrc + '/css/**/*.css',
-        dest: pathDest + '/css'
-    },
-
     scss: {
-        src: pathSrc + '/scss/*.{scss, sass}',
+        src: pathSrc + '/scss/**/*.{scss, sass}',
         watch: pathSrc + '/scss/**/*.{scss, sass}',
         dest: pathDest + '/scss'
     },
@@ -29,7 +23,7 @@ export const path = {
     },
 
     img: {
-        src: pathSrc + '/images/*.{png,jpg,jpeg,svg,gif}',
+        src: pathSrc + '/images/**/*.{png,jpg,jpeg,svg,gif}',
         watch: pathSrc + '/images/**/*.{png,jpg,jpeg,svg,gif}',
         dest: pathDest + '/images'
     },
