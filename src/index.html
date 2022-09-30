@@ -3,14 +3,10 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="css/main.min.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <title>The build has been started!</title>
+@include("html/_head.html", {
+    title: 'The build has been started!',
+    style: 'css/main.css'
+})
 
 </head>
 
@@ -18,7 +14,6 @@
     <h1>You can write your code right now!</h1>
 
 
-    <script src="js/main.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
