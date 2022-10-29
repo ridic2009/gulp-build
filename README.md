@@ -46,10 +46,10 @@ ___
 ### What's can this assembly
 
 > + Compile SCSS code to CSS, support SASS syntax
-> + Compress images in png, jpg, svg and etc formats
-> + Minify HTML CSS and JS files
-> + **[`npm run validate`](#commands)** for inspect your main HTML file 
-> + Use the HTML-templates in your project `@@include("pathToFile")`
+> + Compress images in .png, .jpg, .svg and etc formats
+> + Minify HTML, CSS and JavaScript files
+> + **[`npm run validate`](#commands)** for inspect your HTML files 
+> + Use the HTML-templates in your project `@include("pathToFile", {key: 'value'})`
 ___
 
 ### Plugins list
@@ -86,9 +86,10 @@ ___
 📦 gulp-build
  ┣ 📂 gulp                    ~ Config and tasks for gulpfile.js
  ┣ 📂 src                     ~ Source folder
- ┃ ┣ 📂 fonts                 ~ Folder for fonts storage
  ┃ ┣ 📂 html                  ~ Folder for HTML-parts storage
- ┃ ┣ 📂 images                ~ Folder for images storage
+ ┃ ┃ ┗ 📜 _head.html          ~ <head></head> HTML-template
+ ┃ ┃ ┗ 📜 _footer.html        ~ <footer></footer> HTML-template
+ ┃ ┃ ┗ 📜 _header.html        ~ <header></header> HTML-template
  ┃ ┣ 📂 js                    ~ Folder for Javascript files storage
  ┃ ┃ ┗ 📜 main.js             ~ Main file for scripts
  ┃ ┣ 📂 scss                  ~ Folder for SCSS files storage
