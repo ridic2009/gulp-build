@@ -1,5 +1,5 @@
 # Gulp Assembly and how to use it
-![version](https://img.shields.io/github/package-json/v/ridic2009/gulp-build?style=for-the-badge)
+![version](https://img.shields.io/github/package-json/v/ridic2009/gulp-build)
 
 ___
 ### Navigation
