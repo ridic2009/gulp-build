@@ -1,7 +1,10 @@
+@import './vars';
+
 h1 {
-    color: aqua;
+    color: rgb(255, 115, 0);
+    font-family: $fontMain;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
